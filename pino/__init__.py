@@ -3,7 +3,7 @@ from Forms import CreateUserForm, CreateCustomerForm
 import shelve, User, Customer, loginuser
 import jyserver.Flask as jsf
 app = Flask(__name__)
-TEst
+Test
 @app.route('/')
 def home():
  return App.render(render_template('home.html'))
